@@ -7,11 +7,11 @@
 # always_allow_html: true
 hero-title: Test
 hero-subtitle: test
-output: myrmdtemplate::bloomberg
 # bibliography: references.bib
 # csl: Extras/anesthesiology.csl
 link-citations: yes
 params:
   pandoc: FALSE
   html: TRUE
+output: myrmdtemplate::bloomberg
 ---
