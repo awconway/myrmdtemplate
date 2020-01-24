@@ -28,7 +28,7 @@ template <- function(...) {
    bookdown::html_document2(...,
                             template = template,
                             css = css,
-                            theme = cosmo,
+                            theme = "cosmo",
                             toc = TRUE,
                             toc_float = TRUE,
                             number_sections = FALSE
