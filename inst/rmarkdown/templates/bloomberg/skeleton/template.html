@@ -25,19 +25,6 @@ $endif$
 
 $for(header-includes)$
 $header-includes$
-
-<div class="parallax">
-    <div class="myimg">
-    <a href="https://bloomberg.nursing.utoronto.ca/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGEt5nUi17_pDiKCbIn1i_8NJc99F5pc9ZlxiHl2YxVhudU6n&s">
-    </a> 
-    </div>
-    		<div class="image-text">
-<div class="lil-image-text">$subtitle$</div>
-<div class="big-image-text"><strong>$title$</strong></div>
-			</div>
-
-</div>
-
 $endfor$
 
 $if(highlightjs)$
@@ -505,6 +492,17 @@ $endif$
 $endif$
 
 
+<div class="parallax">
+    <div class="myimg">
+    <a href="https://bloomberg.nursing.utoronto.ca/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGEt5nUi17_pDiKCbIn1i_8NJc99F5pc9ZlxiHl2YxVhudU6n&s">
+    </a> 
+    </div>
+    		<div class="image-text">
+<div class="lil-image-text">$subtitle$</div>
+<div class="big-image-text"><strong>$title$</strong></div>
+			</div>
+
+</div>
 $for(author)$
 $if(author.name)$
 <h4 class="author">$author.name$</h4>
