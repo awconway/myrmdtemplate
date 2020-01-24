@@ -30,7 +30,9 @@ bloomberg <- function(...) {
                             css = "styles.css",
                             theme = "cosmo",
                             toc = TRUE,
-                            toc_float = TRUE,
-                            includes = rmarkdown::includes(in_header = "header.html"))
+                            toc_float = TRUE
+                            # ,
+                            # includes = rmarkdown::includes(in_header = "header.html")
+                            )
    
 }
