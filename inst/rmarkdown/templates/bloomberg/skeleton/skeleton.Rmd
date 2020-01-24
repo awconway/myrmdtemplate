@@ -5,8 +5,8 @@
 #     pandoc_args:
 #       - --lua-filter=Extras/pagebreak.lua
 # always_allow_html: true
-title:
-subtitle: 
+hero-title: Test
+hero-subtitle: test
 output: myrmdtemplate::bloomberg
 # bibliography: references.bib
 # csl: Extras/anesthesiology.csl
