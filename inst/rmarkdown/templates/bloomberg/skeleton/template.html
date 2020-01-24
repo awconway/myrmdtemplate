@@ -490,17 +490,18 @@ $endif$
 $endif$
 
 $endif$
-
-
 <div class="parallax">
     <div class="myimg">
     <a href="https://bloomberg.nursing.utoronto.ca/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGEt5nUi17_pDiKCbIn1i_8NJc99F5pc9ZlxiHl2YxVhudU6n&s">
     </a> 
     </div>
     		<div class="image-text">
-<div class="lil-image-text">$subtitle$</div>
-<div class="big-image-text"><strong>$title$</strong></div>
-			</div>
+$if(title)$
+<h1 class="title toc-ignore">$title$</h1>
+$if(subtitle)$
+<h3 class="subtitle">$subtitle$</h3>
+$endif$
+		</div>
 
 </div>
 $for(author)$
