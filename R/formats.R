@@ -16,9 +16,9 @@ bloomberg <- function(...) {
     system.file(..., package = "myrmdtemplate")
   }
   
-  template <- pkg_resource("rmarkdown/templates/myrmdtemplate/resources/template.html")
+  # template <- pkg_resource("rmarkdown/templates/myrmdtemplate/resources/template.html")
 
-   
+template <- "https://raw.githubusercontent.com/rstudio/rmarkdown/master/inst/rmd/h/default.html"
   
    css = pkg_resource("rmarkdown/templates/myrmdtemplate/resources/styles.css")
    header = pkg_resource("rmarkdown/templates/myrmdtemplate/resources/header.html")
