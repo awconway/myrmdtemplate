@@ -26,7 +26,7 @@ bloomberg <- function(...) {
    
    
    rmarkdown::html_document(...,
-                            # template = template,
+                            template = "template.html",
                             css = "styles.css",
                             theme = "cosmo",
                             toc = TRUE,

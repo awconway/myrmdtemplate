@@ -6,8 +6,8 @@
 #       - --lua-filter=Extras/pagebreak.lua
 # always_allow_html: true
 output: myrmdtemplate::bloomberg
-bibliography: references.bib
-csl: Extras/anesthesiology.csl
+# bibliography: references.bib
+# csl: Extras/anesthesiology.csl
 link-citations: yes
 params:
   pandoc: FALSE
