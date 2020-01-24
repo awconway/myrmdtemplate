@@ -32,9 +32,11 @@ $header-includes$
     </a> 
     </div>
     		<div class="image-text">
-
-			<div class="lil-image-text">Grant Proposal</div>
-			<div class="big-image-text"><strong>Automating pre-procedural fasting instructions</strong></div>
+$if(title)$
+<div class="lil-image-text">$subtitle$</div>
+$if(subtitle)$
+<div class="big-image-text"><strong>$title$</strong></div>
+$endif$
 			</div>
 
 </div>
@@ -505,11 +507,7 @@ $endif$
 
 $endif$
 
-$if(title)$
-<h1 class="title toc-ignore">$title$</h1>
-$if(subtitle)$
-<h3 class="subtitle">$subtitle$</h3>
-$endif$
+
 $for(author)$
 $if(author.name)$
 <h4 class="author">$author.name$</h4>
