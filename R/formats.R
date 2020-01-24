@@ -1,15 +1,15 @@
 #' Output format for letter
 #'
-#' Each function is a wrapper for \code{\link[bookdown]{html_document2}} to
+#' Each function is a wrapper for \code{\link[rmarkdown]{html_document}} to
 #' produce documents in ConwayLetterTemplate style.
-#' @rdname template
-#' @param \dots Arguments passed to \code{\link[bookdown]{html_document2}}.
+#' @rdname bloomberg
+#' @param \dots Arguments passed to \code{\link[rmarkdown]{html_document}}.
 #'
 #' @return An R Markdown output format object.
 #'
 #'
 #' @export
-template <- function(...) {
+bloomberg <- function(...) {
   
   # locations of resource files in the package
   pkg_resource = function(...) {
@@ -25,7 +25,7 @@ template <- function(...) {
    
    
    
-   bookdown::html_document2(...,
+   rmarkdown::html_document(...,
                             template = template,
                             css = css,
                             theme = "cosmo",
