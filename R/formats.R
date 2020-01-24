@@ -20,18 +20,16 @@ bloomberg <- function(...) {
 
 template <- "https://raw.githubusercontent.com/rstudio/rmarkdown/master/inst/rmd/h/default.html"
   
-   css = pkg_resource("rmarkdown/templates/myrmdtemplate/resources/styles.css")
-   header = pkg_resource("rmarkdown/templates/myrmdtemplate/resources/header.html")
+   # css = pkg_resource("rmarkdown/templates/myrmdtemplate/resources/styles.css")
+   # header = pkg_resource("rmarkdown/templates/myrmdtemplate/resources/header.html")
    
    
    
    rmarkdown::html_document(...,
                             template = template,
-                            css = css,
+                            # css = css,
                             theme = "cosmo",
                             toc = TRUE,
-                            toc_float = TRUE,
-                            number_sections = FALSE
-   )
+                            toc_float = TRUE)
    
 }
