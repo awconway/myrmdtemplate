@@ -29,8 +29,8 @@ template <- function(...) {
                             template = template,
                             css = css,
                             theme = cosmo,
-                            toc=true,
-                            toc_float=true,
+                            toc = TRUE,
+                            toc_float = TRUE,
                             number_sections = FALSE
    )
    
