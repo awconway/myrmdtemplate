@@ -12,13 +12,13 @@
 bloomberg <- function(...) {
   
   # locations of resource files in the package
-  pkg_resource = function(...) {
-    system.file(..., package = "myrmdtemplate")
-  }
+  # pkg_resource = function(...) {
+  #   system.file(..., package = "myrmdtemplate")
+  # }
   
   # template <- pkg_resource("rmarkdown/templates/myrmdtemplate/resources/template.html")
 
-template <- "https://raw.githubusercontent.com/rstudio/rmarkdown/master/inst/rmd/h/default.html"
+# template <- "https://raw.githubusercontent.com/rstudio/rmarkdown/master/inst/rmd/h/default.html"
   
    # css = pkg_resource("rmarkdown/templates/myrmdtemplate/resources/styles.css")
    # header = pkg_resource("rmarkdown/templates/myrmdtemplate/resources/header.html")
@@ -26,7 +26,7 @@ template <- "https://raw.githubusercontent.com/rstudio/rmarkdown/master/inst/rmd
    
    
    rmarkdown::html_document(...,
-                            template = template,
+                            # template = template,
                             # css = css,
                             theme = "cosmo",
                             toc = TRUE,
