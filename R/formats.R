@@ -30,8 +30,7 @@ bloomberg <- function(...) {
                             css = "Extras/styles.css",
                             toc = TRUE,
                             toc_float = TRUE
-                            # ,
-                            # includes = rmarkdown::includes(in_header = "header.html")
+                            theme = "cosmo"
                             )
    
 }
