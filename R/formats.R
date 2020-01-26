@@ -29,7 +29,7 @@ bloomberg <- function(...) {
                             template = "Extras/template.html",
                             css = "Extras/styles.css",
                             toc = TRUE,
-                            toc_float = TRUE
+                            toc_float = TRUE,
                             theme = "cosmo"
                             )
    
