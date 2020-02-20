@@ -28,9 +28,6 @@ bloomberg <- function(...) {
    rmarkdown::html_document(...,
                             template = "Extras/template.html",
                             css = "Extras/styles.css",
-                            toc = TRUE,
-                            toc_float = TRUE,
-                            theme = "cosmo"
                             )
    
 }
