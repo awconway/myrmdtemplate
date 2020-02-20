@@ -25,11 +25,18 @@ $endif$
 
 $for(header-includes)$
 $header-includes$
-
+<!--
 <div class="hero-image">
 <div class="lil-image-text">$hero-subtitle$</div>
 <div class="big-image-text"><strong>$hero-title$</strong></div>
-
+</div>
+-->
+<div class="hero">
+  <div class="hero-overlay">
+    <h1>$hero-subtitle$</h1>
+    <h1>$hero-title$</h1>
+  </div>
+  <img src="https://source.unsplash.com/6pcGTJDuf6M/" alt="intravenous fluids on a metal pole" class="hero-image">
 </div>
 
 $endfor$
