@@ -7,7 +7,6 @@
 # always_allow_html: true
 hero-title: Test
 hero-subtitle: test
-hero-image: https://source.unsplash.com/6pcGTJDuf6M/
 logo-image: https://raw.githubusercontent.com/awconway/awconway.github.io/master/images/pmcc_logo.png
 logo-hyperlink: https://www.uhn.ca/PMCC
 # bibliography: references.bib
