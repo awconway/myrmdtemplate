@@ -27,16 +27,13 @@ $for(header-includes)$
 $header-includes$
 
 <div class="parallax">
-    <div class="myimg">
-    <a href="https://bloomberg.nursing.utoronto.ca/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGEt5nUi17_pDiKCbIn1i_8NJc99F5pc9ZlxiHl2YxVhudU6n&s">
-    </a> 
-    </div>
-    		<div class="image-text">
+    <a href="https://www.uhn.ca/PMCC"><img src="https://raw.githubusercontent.com/awconway/awconway.github.io/master/images/pmcc_logo.png">
+    </a>
 <div class="lil-image-text">$hero-subtitle$</div>
 <div class="big-image-text"><strong>$hero-title$</strong></div>
-			</div>
 
 </div>
+
 $endfor$
 
 $if(highlightjs)$
@@ -533,6 +530,7 @@ $toc$
 $endif$
 $endif$
 
+$if(author)$
 <span style="border-top: 1px solid rgba(0, 0, 0, 0.1);"><hr></span>
 <table class="tg">
   <tr>
@@ -565,7 +563,7 @@ $endif$
     $endfor$
 </table>
 <span style="border-top: 1px solid rgba(0, 0, 0, 0.1);"><hr></span>
-
+$endif$
 $body$
 
 $for(include-after)$
