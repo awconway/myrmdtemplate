@@ -2,6 +2,8 @@
 # output:
 #  word_document:
 #     reference_docx: Extras/manuscript_template.docx
+#     pandoc_args:
+#       - --lua-filter=Extras/pagebreak.lua
 # always_allow_html: true
 hero-title: Test
 hero-subtitle: test
@@ -11,5 +13,5 @@ link-citations: yes
 params:
   pandoc: FALSE
   html: TRUE
-output: myrmdtemplate::bloomberg
+output: myrmdtemplate::hero
 ---

@@ -11,5 +11,5 @@ link-citations: yes
 params:
   pandoc: FALSE
   html: TRUE
-output: myrmdtemplate::bloomberg
+output: myrmdtemplate::pmcc
 ---
