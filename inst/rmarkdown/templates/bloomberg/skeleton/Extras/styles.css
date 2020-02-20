@@ -543,12 +543,6 @@ body, html {
     /* The image used */
   background-color: #274260;
 
-      /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-    /*background-color: #1261a1;
      Set a specific height */
     height: 30%; 
     display: flex;
