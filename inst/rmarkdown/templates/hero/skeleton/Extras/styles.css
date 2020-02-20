@@ -549,7 +549,7 @@ body, html {
   position: relative;
     /*background-color: #1261a1;
      Set a specific height */
-    height: 30%; 
+    height: 40%; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
