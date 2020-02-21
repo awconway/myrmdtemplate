@@ -537,35 +537,40 @@ body, html {
 .author-affil {
   font-size: 14px;
 }
+/*
+https://codetheweb.blog/2017/12/07/fullscreen-image-hero/ */
 
 .hero {
- 	position: relative;
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+    
+        /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&fit=fill');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.hero-overlay {
-  text-align: center;
-  position: absolute;
-  text-transform: uppercase;
-  z-index: 0;
-  width: 100%;
-  h1 {
-    font-size: 6vw;
-    transform: translateY(10vw);
-    color: #ffffff; 
-    letter-spacing: 0.45rem;
-    font-weight: 700;
-  }
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
 
-.hero-image {
-  display: block;
- 	//overflow: visible;
-  z-index:-1;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
 
 .hero-image-old { 
     /* The image used */
